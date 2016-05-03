@@ -1,0 +1,85 @@
+
+        body {
+          margin: 0;
+          padding: 0;
+          background-color: #feffdd;
+        }
+
+
+        h2 {
+          text-align: center;
+
+        }
+        #contents{
+          width: auto;
+          height: auto;
+        }
+        footer{
+          position: sticky;
+        }
+
+        .header {
+          border-bottom: 2px solid black;
+          height: 25%;
+          width: 100%;
+          margin: auto;
+          background: #c64362;
+          background-image: url(logo_2.png) ;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: 322px 248px;
+          padding: 30px;
+          //height="248px" width="322px"
+
+        }
+
+        .foglio {
+          align-items: center;
+          display: inline-table;;
+          width: 100%;
+          height: auto;
+        }
+
+        .section {
+          background-color: yellow;
+          float: center;
+          display: inline-block;
+          width: 100%;
+          height: auto;
+          border-radius: 15px;
+          border: 2px solid black;
+          padding: 10px;
+        }
+
+        .dolci {
+          display: inline-block;
+          width: 25%;
+          margin: 1em;
+          border-radius: 15px;
+          border: 2px solid black;
+          padding: 10px;
+          opacity: 0.65;
+          background: red;
+        }
+
+        .salati {
+          display: inline-block;
+          width: 25%;
+          margin: 1em;
+          border-radius: 15px;
+          border: 2px solid black;
+          padding: 10px;
+          opacity: 0.65;
+          background: brown;
+        }
+
+        .cathering {
+          display: inline-block;
+          width: 25%;
+          margin: 1em;
+          border-radius: 15px;
+          border: 2px solid black;
+          padding: 10px;
+          opacity: 0.65;
+          background: green;
+        }
